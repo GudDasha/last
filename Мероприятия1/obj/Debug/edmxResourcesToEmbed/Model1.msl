@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище МероприятияModelContainer" CdmEntityContainer="МероприятияEntities1">
+    <EntitySetMapping Name="Cтраны">
+      <EntityTypeMapping TypeName="МероприятияModel.Cтраны">
+        <MappingFragment StoreEntitySet="Cтраны">
+          <ScalarProperty Name="Код_страны" ColumnName="Код_страны" />
+          <ScalarProperty Name="Название_страны" ColumnName="Название_страны" />
+          <ScalarProperty Name="Английское_название" ColumnName="Английское_название" />
+          <ScalarProperty Name="Код" ColumnName="Код" />
+          <ScalarProperty Name="Код2" ColumnName="Код2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="МероприятияModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Активности">
+      <EntityTypeMapping TypeName="МероприятияModel.Активности">
+        <MappingFragment StoreEntitySet="Активности">
+          <ScalarProperty Name="Индекс" ColumnName="Индекс" />
+          <ScalarProperty Name="Код_мероприятия" ColumnName="Код_мероприятия" />
+          <ScalarProperty Name="Активность" ColumnName="Активность" />
+          <ScalarProperty Name="День" ColumnName="День" />
+          <ScalarProperty Name="Время_начала" ColumnName="Время_начала" />
+          <ScalarProperty Name="код_модератора" ColumnName="код_модератора" />
+          <ScalarProperty Name="код_жюри1" ColumnName="код_жюри1" />
+          <ScalarProperty Name="код_жюри2" ColumnName="код_жюри2" />
+          <ScalarProperty Name="код_жюри3" ColumnName="код_жюри3" />
+          <ScalarProperty Name="код_жюри4" ColumnName="код_жюри4" />
+          <ScalarProperty Name="код_жюри5" ColumnName="код_жюри5" />
+          <ScalarProperty Name="код_победителя" ColumnName="код_победителя" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Города">
+      <EntityTypeMapping TypeName="МероприятияModel.Города">
+        <MappingFragment StoreEntitySet="Города">
+          <ScalarProperty Name="Код_города" ColumnName="Код_города" />
+          <ScalarProperty Name="Наименование" ColumnName="Наименование" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Мероприятия">
+      <EntityTypeMapping TypeName="МероприятияModel.Мероприятия">
+        <MappingFragment StoreEntitySet="Мероприятия">
+          <ScalarProperty Name="Код_мероприятия" ColumnName="Код_мероприятия" />
+          <ScalarProperty Name="Событие" ColumnName="Событие" />
+          <ScalarProperty Name="Дата" ColumnName="Дата" />
+          <ScalarProperty Name="Дни" ColumnName="Дни" />
+          <ScalarProperty Name="Город" ColumnName="Город" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Пользователи">
+      <EntityTypeMapping TypeName="МероприятияModel.Пользователи">
+        <MappingFragment StoreEntitySet="Пользователи">
+          <ScalarProperty Name="Код_пользователи" ColumnName="Код_пользователи" />
+          <ScalarProperty Name="ФИО" ColumnName="ФИО" />
+          <ScalarProperty Name="пол" ColumnName="пол" />
+          <ScalarProperty Name="почта" ColumnName="почта" />
+          <ScalarProperty Name="дата_рождения" ColumnName="дата_рождения" />
+          <ScalarProperty Name="страна" ColumnName="страна" />
+          <ScalarProperty Name="телефон" ColumnName="телефон" />
+          <ScalarProperty Name="направление" ColumnName="направление" />
+          <ScalarProperty Name="мероприятие" ColumnName="мероприятие" />
+          <ScalarProperty Name="уникальный_код" ColumnName="уникальный_код" />
+          <ScalarProperty Name="пароль" ColumnName="пароль" />
+          <ScalarProperty Name="фото" ColumnName="фото" />
+          <ScalarProperty Name="код_роли" ColumnName="код_роли" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Роли">
+      <EntityTypeMapping TypeName="МероприятияModel.Роли">
+        <MappingFragment StoreEntitySet="Роли">
+          <ScalarProperty Name="Код_роли" ColumnName="Код_роли" />
+          <ScalarProperty Name="Наименование" ColumnName="Наименование" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_4">
+      <EntityTypeMapping TypeName="МероприятияModel.View_4">
+        <MappingFragment StoreEntitySet="View_4">
+          <ScalarProperty Name="Событие" ColumnName="Событие" />
+          <ScalarProperty Name="направление" ColumnName="направление" />
+          <ScalarProperty Name="Дата" ColumnName="Дата" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

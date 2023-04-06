@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="95d34c9f89594af684e5803e1ff10b46" Name="Diagram1">
+        <EntityTypeShape EntityType="МероприятияModel.Cтраны" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="МероприятияModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="МероприятияModel.Активности" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="МероприятияModel.Города" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="МероприятияModel.Мероприятия" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="МероприятияModel.Пользователи" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="МероприятияModel.Роли" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="МероприятияModel.View_4" Width="1.5" PointX="7.75" PointY="4.625" IsExpanded="true" />
+        <AssociationConnector Association="МероприятияModel.FK_Пользователи_Cтраны" ManuallyRouted="false" />
+        <AssociationConnector Association="МероприятияModel.FK_Активности_Мероприятия" ManuallyRouted="false" />
+        <AssociationConnector Association="МероприятияModel.FK_Активности_Пользователи" ManuallyRouted="false" />
+        <AssociationConnector Association="МероприятияModel.FK_Активности_Пользователи1" ManuallyRouted="false" />
+        <AssociationConnector Association="МероприятияModel.FK_Активности_Пользователи2" ManuallyRouted="false" />
+        <AssociationConnector Association="МероприятияModel.FK_Активности_Пользователи3" ManuallyRouted="false" />
+        <AssociationConnector Association="МероприятияModel.FK_Активности_Пользователи4" ManuallyRouted="false" />
+        <AssociationConnector Association="МероприятияModel.FK_Активности_Пользователи5" ManuallyRouted="false" />
+        <AssociationConnector Association="МероприятияModel.FK_Активности_Пользователи6" ManuallyRouted="false" />
+        <AssociationConnector Association="МероприятияModel.FK_Мероприятия_Города" ManuallyRouted="false" />
+        <AssociationConnector Association="МероприятияModel.FK_Пользователи_Роли" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
